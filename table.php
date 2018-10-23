@@ -1,6 +1,6 @@
 <?php
 
-$content = file_get_contents('./content2.json');
+$content = file_get_contents('./content.json');
 $json = json_decode($content, true);
 
 ?>
